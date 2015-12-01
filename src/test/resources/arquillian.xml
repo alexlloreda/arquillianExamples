@@ -5,8 +5,7 @@
         http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
     <container qualifier="jbossas-managed" default="true">
         <configuration>
-            <property name="jbossHome">/Users/alloreda/workspace/jboss-eap-6.1</property>
-            <!-- <property name="jbossHome">/Users/alloreda/workspace/jboss-as-7.1.1</property> -->
+            <property name="jbossHome">build/target</property>
         </configuration>
     </container>
 </arquillian>
